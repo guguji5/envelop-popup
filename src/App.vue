@@ -252,7 +252,8 @@ html, body{
   .envelop{
     width: 864px;
     height: 406px;
-    background: url('./assets/envelop-back.png') no-repeat;
+    /* background: #212865 url('./assets/envelop-back.png') no-repeat; */
+    background: #212865 url('http://img-ys011.didistatic.com/static/dc2img/envelop-back.png') no-repeat;
     background-size: 864px 406px;
     position: absolute;
     border-radius: 4px;
@@ -268,7 +269,8 @@ html, body{
       left: 0px;
       width: 864px;
       height: 406px;
-      background: url('./assets/envelop-front.png') no-repeat;
+      /* background: url('./assets/envelop-front.png') no-repeat; */
+      background: url('http://img-ys011.didistatic.com/static/dc2img/envelop-front.png') no-repeat;
       background-size: 864px 406px;
       z-index: 5003;
       border-radius: 0px 0px 4px 4px;
@@ -284,7 +286,7 @@ html, body{
       z-index: 5002;
       padding: 30px 40px;
       overflow: hidden;
-
+      visibility: hidden;
       .head-left{
         width: 100%;
         margin-bottom: 24px;
@@ -302,7 +304,8 @@ html, body{
       left: 0px;
       width: 864px;
       height: 293px;
-      background: url('./assets/envelop-top.png') no-repeat;
+      /* background: url('./assets/envelop-top.png') no-repeat; */
+      background: url('http://img-ys011.didistatic.com/static/dc2img/envelop-top.png') no-repeat;
       background-size: 864px 293px;
       z-index: 5005;
       display: flex;
@@ -322,7 +325,8 @@ html, body{
       left: 0px;
       width: 864px;
       height: 249px;
-      background: url('./assets/envelop-bottom.png') no-repeat;
+      /* background: url('./assets/envelop-bottom.png') no-repeat; */
+      background: url('http://img-ys011.didistatic.com/static/dc2img/envelop-bottom.png') no-repeat;
       background-size: 864px 249px;
       z-index: 5004;
       display: flex;
@@ -364,6 +368,13 @@ html, body{
       background: url('./assets/seal.png') no-repeat;
       background-size: 107px 105px;
       z-index: 5006;
+      cursor: pointer;
+      &:hover{
+        img{
+          opacity: 100;
+          transition: opacity 0.5s;
+        }
+      }
       img{
         opacity: 0;
         width:107px; 
@@ -433,7 +444,8 @@ html, body{
       .paper{
         top: -215px;
         height: 492px;
-        transition: all 0.5s ease 2s;
+        transition: top 0.5s ease 2s, height 0.5s ease 2s;
+        visibility: visible;
       }
     }
   }
