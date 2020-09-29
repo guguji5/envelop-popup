@@ -252,7 +252,7 @@ html, body{
   .envelop{
     width: 864px;
     height: 406px;
-    background: url('././assets/envelop-back.png') no-repeat;
+    background: url('./assets/envelop-back.png') no-repeat;
     background-size: 864px 406px;
     position: absolute;
     border-radius: 4px;
@@ -268,7 +268,7 @@ html, body{
       left: 0px;
       width: 864px;
       height: 406px;
-      background: url('././assets/envelop-front.png') no-repeat;
+      background: url('./assets/envelop-front.png') no-repeat;
       background-size: 864px 406px;
       z-index: 5003;
       border-radius: 0px 0px 4px 4px;
@@ -279,7 +279,7 @@ html, body{
       left: 40px;
       width: 784px;
       height: 390px;
-      background: url('././assets/envelop-paper.png') no-repeat;
+      background: url('./assets/envelop-paper.png') no-repeat;
       background-size: 784px 492px;
       z-index: 5002;
       padding: 30px 40px;
@@ -302,7 +302,7 @@ html, body{
       left: 0px;
       width: 864px;
       height: 293px;
-      background: url('././assets/envelop-top.png') no-repeat;
+      background: url('./assets/envelop-top.png') no-repeat;
       background-size: 864px 293px;
       z-index: 5005;
       display: flex;
@@ -312,7 +312,7 @@ html, body{
       .invitation{
         width: 94px;
         height: 28px;
-        background: url('././assets/invitation.png') no-repeat;
+        background: url('./assets/invitation.png') no-repeat;
         background-size: 94px 28px;
       }
     }
@@ -322,7 +322,7 @@ html, body{
       left: 0px;
       width: 864px;
       height: 249px;
-      background: url('././assets/envelop-bottom.png') no-repeat;
+      background: url('./assets/envelop-bottom.png') no-repeat;
       background-size: 864px 249px;
       z-index: 5004;
       display: flex;
@@ -333,7 +333,7 @@ html, body{
       .logo{
         width: 99px;
         height: 33px;
-        background: url('././assets/envelop-logo.png') no-repeat;
+        background: url('./assets/envelop-logo.png') no-repeat;
         background-size: 99px 33px;
       }
       
@@ -361,7 +361,7 @@ html, body{
       margin-left: -53px;
       width: 107px;
       height: 105px;
-      background: url('././assets/seal.png') no-repeat;
+      background: url('./assets/seal.png') no-repeat;
       background-size: 107px 105px;
       z-index: 5006;
       img{
@@ -375,7 +375,7 @@ html, body{
       bottom: -13px;
       width: 216px;
       height: 48px;
-      background: url('././assets/silk.png') no-repeat;
+      background: url('./assets/silk.png') no-repeat;
       background-size: 216px 48px;
       z-index: 5007;
       &.right{
